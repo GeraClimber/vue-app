@@ -1,15 +1,13 @@
 <template>
-  <div id="app">
-    <h1>hello-vue</h1>
+  <div id="app" class="container">
+ <router-view></router-view>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'app',
-  components: {
-  }
+ 
 }
 </script>
 
